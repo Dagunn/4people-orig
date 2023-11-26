@@ -30,6 +30,10 @@
     right: 0;
     top: 24px;
     font-size: 15px;
+
+    @include media(sm) {
+      top: 0;
+    }
   }
 }
 

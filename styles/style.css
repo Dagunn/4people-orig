@@ -770,6 +770,11 @@ template {
   top: 24px;
   font-size: 15px;
 }
+@media screen and (min-width: 992px) {
+  .range__value {
+    top: 0;
+  }
+}
 
 .range__input {
   -webkit-appearance: none;
