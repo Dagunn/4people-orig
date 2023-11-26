@@ -1,0 +1,37 @@
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 4px;
+  min-width: 130px;
+  border: 1px solid var(--white);
+  background: var(--blueTitle);
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color .3s;
+
+  @include media(xs) {
+    min-width: 183px;
+  }
+
+  &--white {
+    border-color: var(--borderColor);
+    color: var(--btnDark);
+    background: var(--white);
+    text-align: center;
+    
+    a {
+      color: inherit;
+    }
+  }
+
+  &--reg {
+    max-width: 370px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}

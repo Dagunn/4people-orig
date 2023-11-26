@@ -1,0 +1,33 @@
+.container {
+  max-width: 1210px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+.section{
+  &-top {
+    background-image: url('../images/img/people-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--black);
+  }
+
+  &-order {
+    background: #272733 url('../images/img/map-bg.svg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 90px;
+
+    @include media(xs) {
+      padding-bottom: 120px;
+    }
+
+    @include media(sm) {
+      padding-bottom: 150px;
+    }
+  }
+}
+

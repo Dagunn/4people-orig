@@ -1,0 +1,27 @@
+.input {
+  max-width: 370px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  outline: 0;
+  color: #272733;
+  border: 1px solid var(--white);
+  background: rgba(255, 255, 255, 0.85);
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #272733;
+  font-size: 18px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #272733;
+  font-size: 18px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #272733;
+  font-size: 18px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #272733;
+  font-size: 18px;
+}
